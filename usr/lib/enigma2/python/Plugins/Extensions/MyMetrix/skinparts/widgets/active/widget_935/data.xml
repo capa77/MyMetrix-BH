@@ -1,0 +1,14 @@
+<skinpartwidget screenname="Nab_ExtraInfobar">
+<!-- /* InfoWidget Provider and CAM(CENTER) -->
+<!--<widget backgroundColor="metrixBackground" foregroundColor="metrixAccent1" font="SetrixHD; 23" halign="left" position="389,40" render="Label" size="279,41" source="session.CurrentService" transparent="1" valign="center">
+  <convert type="ServiceName">Provider</convert>
+</widget>-->
+<widget backgroundColor="metrixBackground" foregroundColor="metrixForeground" font="Regular;16" halign="center" name="netcard_info" noWrap="1" position="395,40" size="530,20" transparent="1" zPosition="4"/>
+<widget backgroundColor="metrixBackground" foregroundColor="metrixForeground" font="Regular;16" halign="center" name="ecm_info" noWrap="1" position="395,60" size="530,20" transparent="1" zPosition="4"/>
+<widget backgroundColor="metrixBackground" font="Regular;16" halign="left" name="orbital_pos" position="395,87" size="175,22" transparent="1" zPosition="4"/>
+<!--<widget name="nfreq_info" position="580,63" size="335,22" halign="right" font="Regular;16" zPosition="4" transparent="1" backgroundColor="metrixBackground"/>-->
+<widget backgroundColor="metrixBackground" foregroundColor="metrixForeground" font="Regular;17" halign="right" name="cam_info" position="580,87" size="350,22" transparent="1" zPosition="4"/>
+<eLabel backgroundColor="metrixBackground2" name="new ePixmap" position="380,40" size="560,70" transparent="0" zPosition="-99"/>
+<eLabel backgroundColor="metrixAccent1" position="385,83" size="550,1"/>
+<!-- InfoWidget Provider and CAM(CENTER) */ -->
+</skinpartwidget>      

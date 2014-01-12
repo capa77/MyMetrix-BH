@@ -1,0 +1,56 @@
+<skinpartwidget screenname="InfoBar">
+<!--  /* 4x Tuner  -->
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="left" position="707,669" render="FixedLabel" size="75,33" source="session.FrontendInfo" text="DVB-S" transparent="1" valign="top">
+<convert type="FrontendInfo">TYPE</convert>
+<convert type="ValueRange">0,0</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="left" position="707,669" render="Label" size="80,33" source="session.CurrentService" text="DVB-S2" transparent="1" valign="top" zPosition="1">
+<convert type="ServiceName2">%s</convert>
+</widget>
+<eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent2" halign="center" position="778,669" size="20,33" text="A" transparent="1" valign="top" zPosition="1"/>
+<eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent2" halign="center" position="798,669" size="20,33" text="B" transparent="1" valign="top" zPosition="1"/>
+<eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent2" halign="center" position="818,669" size="20,33" text="C" transparent="1" valign="top" zPosition="1"/>
+<eLabel backgroundColor="metrixBackground" font="Regular; 20" foregroundColor="metrixAccent2" halign="center" position="838,669" size="20,33" text="D" transparent="1" valign="top" zPosition="1"/>
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="778,669" render="FixedLabel" size="20,33" source="session.TunerInfo" text="A" transparent="1" valign="top" zPosition="2">
+<convert type="TunerInfo">TunerUseMask</convert>
+<convert type="ValueBitTest">1</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="798,669" render="FixedLabel" size="20,33" source="session.TunerInfo" text="B" transparent="1" valign="top" zPosition="2">
+<convert type="TunerInfo">TunerUseMask</convert>
+<convert type="ValueBitTest">2</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="818,669" render="FixedLabel" size="20,33" source="session.TunerInfo" text="C" transparent="1" valign="top" zPosition="2">
+<convert type="TunerInfo">TunerUseMask</convert>
+<convert type="ValueBitTest">4</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="metrixBackground" font="Regular; 20" halign="center" position="838,669" render="FixedLabel" size="20,33" source="session.TunerInfo" text="D" transparent="1" valign="top" zPosition="2">
+<convert type="TunerInfo">TunerUseMask</convert>
+<convert type="ValueBitTest">8</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="green" font="Regular; 20" foregroundColor="green" halign="center" position="778,694" render="FixedLabel" size="20,3" source="session.FrontendInfo" transparent="0" valign="top" zPosition="3">
+<convert type="FrontendInfo">NUMBER</convert>
+<convert type="ValueRange">0,0</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="green" font="Regular; 20" foregroundColor="green" halign="center" position="798,694" render="FixedLabel" size="20,3" source="session.FrontendInfo" transparent="0" valign="top" zPosition="3">
+<convert type="FrontendInfo">NUMBER</convert>
+<convert type="ValueRange">1,1</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="green" font="Regular; 20" foregroundColor="green" halign="center" position="818,694" render="FixedLabel" size="20,3" source="session.FrontendInfo" transparent="0" valign="top" zPosition="3">
+<convert type="FrontendInfo">NUMBER</convert>
+<convert type="ValueRange">2,2</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<widget backgroundColor="green" font="Regular; 20" foregroundColor="green" halign="center" position="838,694" render="FixedLabel" size="20,3" source="session.FrontendInfo" transparent="0" valign="top" zPosition="3">
+<convert type="FrontendInfo">NUMBER</convert>
+<convert type="ValueRange">3,3</convert>
+<convert type="ConditionalShowHide"/>
+</widget>
+<!--  4x Tuner */ -->
+</skinpartwidget>  

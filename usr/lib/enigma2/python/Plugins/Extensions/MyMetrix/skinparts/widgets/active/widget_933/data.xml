@@ -1,0 +1,32 @@
+<skinpartwidget screenname="Nab_ExtraInfobar"> 
+ <!-- /* Crypt-Info -->
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="beta_no" position="363,669" size="19,30" text="B" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="beta_emm" position="363,669" size="19,30" text="B" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="beta_ecm" position="363,669" size="19,30" text="B" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="irdeto_no" position="378,669" size="19,30" text="I" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="irdeto_emm" position="378,669" size="19,30" text="I" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="irdeto_ecm" position="378,669" size="19,30" text="I" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="seca_no" position="392,669" size="19,30" text="S" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="seca_emm" position="392,669" size="19,30" text="S" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="seca_ecm" position="392,669" size="19,30" text="S" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="via_no" position="409,669" size="19,30" text="V" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="via_emm" position="409,669" size="19,30" text="V" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="via_ecm" position="409,669" size="19,30" text="V" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="nagra_no" position="427,669" size="19,30" text="N" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="nagra_emm" position="427,669" size="19,30" text="N" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="nagra_ecm" position="427,669" size="19,30" text="N" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="cw_no" position="445,669" size="35,30" text="CW" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="cw_emm" position="445,669" size="35,30" text="CW" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="cw_ecm" position="445,669" size="35,30" text="CW" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="nds_no" position="480,669" size="35,30" text="ND" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="nds_emm" position="480,669" size="35,30" text="ND" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="nds_ecm" position="480,669" size="35,30" text="ND" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="center" name="conax_no" position="512,669" size="35,30" text="CO" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="center" name="conax_emm" position="512,669" size="35,30" text="CO" transparent="1" zPosition="4"/>
+<widget backgroundColor="green" font="Regular;20" foregroundColor="green" halign="center" name="conax_ecm" position="512,669" size="35,30" text="CO" transparent="1" valign="center" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" halign="left" name="button_fta" position="288,669" size="45,30" text="FTA" transparent="1" zPosition="3"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="red" halign="left" name="button_card" position="288,669" size="45,30" text="CRD" transparent="1" zPosition="4"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent2" halign="left" name="button_emu" position="288,669" size="45,30" text="EMU" transparent="1" zPosition="5"/>
+<widget backgroundColor="metrixBackground" font="Regular;20" foregroundColor="metrixAccent1" halign="left" name="button_spider" position="288,669" size="45,30" text="NET" transparent="1" zPosition="6"/>
+  <!-- Crypt-Info */ -->
+</skinpartwidget>    

@@ -1,0 +1,28 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="BhRedPanel" position="0,0" size="1308,720">
+    <eLabel backgroundColor="metrixBackground" position="40,25" size="736,650" zPosition="-10"/>
+    <widget backgroundColor="metrixBackground2" font="SetrixHD;60" halign="left" position="1075,573" render="Label" size="140,65" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget backgroundColor="metrixBackground2" font="Regular; 15" foregroundColor="metrixAccent1" halign="right" position="901,597" render="Label" size="161,27" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%A</convert>
+    </widget>
+    <widget backgroundColor="metrixBackground2" font="Regular; 16" foregroundColor="metrixAccent1" halign="right" position="901,624" render="Label" size="161,29" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%e. %B</convert>
+    </widget>
+    <!-- DATA -->
+    <widget name="list" position="59,125" scrollbarMode="showOnDemand" size="580,450" transparent="1"/>
+    <widget backgroundColor="metrixBackground2" font="SetrixHD;43" foregroundColor="metrixAccent1" halign="center" name="lab1" position="794,65" size="430,110" transparent="1"/>
+    <widget font="Regular;20" name="lab2" position="794,185" size="430,420" transparent="1" valign="top"/>
+    <!-- DATA END -->
+    
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/red.png" position=" 70,635" size="30,40"/>
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/green.png" position="260,635" size="30,40"/>
+    <ePixmap alphatest="blend" pixmap="MetrixHD/buttons/yellow.png" position="450,635" size="30,40"/>
+    <widget backgroundColor="metrixBackground" font="SetrixHD;20" name="key_red" position="105,637" size="240,28" transparent="1" zPosition="1"/>
+    <widget backgroundColor="metrixBackground" font="SetrixHD;20" name="key_green" position="295,637" size="240,28" transparent="1" zPosition="1"/>
+    <widget backgroundColor="metrixBackground" font="SetrixHD;20" name="key_yellow" position="485,637" size="240,28" transparent="1" zPosition="1"/>
+
+    <eLabel backgroundColor="metrixBackground2" font="SetrixHD;35" position="70,47" size="800,43" text="BH Teleportation" transparent="1"/>
+    <eLabel backgroundColor="metrixBackground2" position="776,51" size="460,600" zPosition="-10"/>
+  </screen>
+  

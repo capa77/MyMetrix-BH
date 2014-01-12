@@ -1,0 +1,14 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapExt" position="293,243" size="700,165" title="Channel" transparent="0">
+<!--    <eLabel text="QuickZap" position="137,10" size="312,48" zPosition="3" font="SetrixHD; 40" transparent="1" halign="right" />-->
+    <widget alphatest="blend" name="chPicon" position="466,17" size="220,132" transparent="1" zPosition="1"/>
+    <widget font="SetrixHD; 30" halign="left" name="number" position="24,77" size="122,35" transparent="1"/>
+    <widget font="SetrixHD; 30" halign="left" name="chNum" position="146,77" size="240,35" transparent="1"/>
+<!--    <widget name="channel" position="24,99" size="122,26" halign="left" font="Regular; 20" transparent="1" />
+	<widget name="chName" position="146,99" size="308,26" halign="left" font="Regular; 20" noWrap="1" transparent="1" />
+-->
+    <widget font="SetrixHD; 40" foregroundColor="metrixAccent1" halign="right" name="chName" noWrap="1" position="137,10" size="312,48" transparent="1"/>
+    <widget font="SetrixHD; 30" halign="left" name="bouquet" position="24,115" size="122,35" transparent="1"/>
+    <widget font="SetrixHD; 30" halign="left" name="chBouq" noWrap="1" position="146,115" size="308,35" transparent="1"/>
+    <eLabel name="new eLabel" position="0,0" size="460,165" zPosition="-1"/>
+    <eLabel backgroundColor="metrixBackground" name="new eLabel" position="460,7" size="230,150" zPosition="-2"/>
+  </screen>   
